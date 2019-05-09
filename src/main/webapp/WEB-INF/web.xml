@@ -3,5 +3,9 @@
  "http://java.sun.com/dtd/web-app_2_3.dtd" >
 
 <web-app>
-  <display-name>Archetype Created Web Application</display-name>
+  <display-name>MySpring</display-name>
+  <servlet>
+    <servlet-name></servlet-name>
+    <servlet-class></servlet-class>
+  </servlet>
 </web-app>
