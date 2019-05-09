@@ -4,8 +4,19 @@
 
 <web-app>
   <display-name>MySpring</display-name>
+  <listener>
+    <listener-class>com.moxiaowei.webcontroller.MySpringLister</listener-class>
+  </listener>
+
   <servlet>
-    <servlet-name></servlet-name>
-    <servlet-class></servlet-class>
+    <servlet-name>webController</servlet-name>
+    <servlet-class>com.moxiaowei.webcontroller.WebController</servlet-class>
   </servlet>
+
+  <servlet-mapping>
+    <servlet-name>webController</servlet-name>
+    <url-pattern>/</url-pattern>
+  </servlet-mapping>
+
+
 </web-app>
